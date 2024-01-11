@@ -31,7 +31,7 @@ def handle_error():
     print(Style.RESET_ALL + "Une erreur s'est produite. Veuillez consulter les logs pour plus de détails.")
     save_error_log(error)
 
-snusbase_auth = 'sb0sl0hf866dmrtc4fkeatw7h8wlfo'
+snusbase_auth = 'sbuncd7b2bfcflweh3dkbeqsuzlzqk'
 snusbase_api = 'https://api-experimental.snusbase.com/'
 
 #API-COMBO:
